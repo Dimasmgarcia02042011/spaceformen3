@@ -1,3 +1,9 @@
+body{
+       font-family: "Noto Serif JP", serif;
+}
+
+
+
 header {
     background-color: #bbbbbb;
     padding: 20px 0;
@@ -39,6 +45,7 @@ nav a:hover {
 main{
     width: 940px;
     margin: 0 auto;
+    
 }
 .principal p{
    margin: 0 0 1em;
@@ -60,11 +67,15 @@ main{
 text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
 }
 
 
 .utensilios{
     width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+
 }
 
 .imagembeneficios{
